@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npm run db-migrate-dev && nodemon -r dotenv/config ./src/server.js",
+    "debug": "DEBUG=server:* npm start",
+    "db-migrate-prod": "prisma migrate deploy --schema=../db/schema.prisma",
+    "db-migrate-dev": "prisma migrate dev --schema=../db/schema.prisma",
+    "start-production": "NODE_ENV=production node ./src/server.js",
+    "standard": "standard"
+  },
+  "nodemonConfig": {
+    "delay": "1000"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^8.0.0"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "@prisma/client": "3.15.2",
+    "jsonwebtoken": "^8.5.1",
+    "secure-password": "^4.0.0",
+    "dotenv": "8.2.0",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4",
+    "prisma": "3.15.2"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "waspapp",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {"axios": "^0.21.1",
+  "lodash": "^4.17.15",
+  "react": "^16.12.0",
+  "react-dom": "^16.12.0",
+  "react-query": "^3.34.19",
+  "react-router-dom": "^5.1.2",
+  "react-scripts": "4.0.3",
+  "uuid": "^3.4.0",
+  "react-error-overlay": "6.0.9"
+},
+  "devDependencies": {
+},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engineStrict": true,
+  "engines": {
+      "node": "^16.0.0",
+      "npm": "^8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
