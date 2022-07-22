@@ -18,12 +18,15 @@ For more details (including installing on Windows) check out [the docs](https://
 ```
 git clone https://github.com/alyanoyigor/wasp-todo-app
 cd wasp-todo-app/
+```
+3. Install packages
+```
 cd .wasp/out/server && npm i
 cd ..
 cd web-app/ && npm i
 cd ../../..
 ```
-3. Start WASP
+4. Start WASP
 ```
 wasp start
 ```
