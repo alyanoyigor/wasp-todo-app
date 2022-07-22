@@ -5,7 +5,7 @@
 
 <br>
 
-## For start this app you need to install WASP
+## Steps for run this app
 
 1. Run
 ```
@@ -13,6 +13,7 @@ curl -sSL https://get.wasp-lang.dev/installer.sh | sh
 ```
 to install Wasp on OSX/Linux. From there, just follow the instructions to run your first app in less then a minute!
 For more details (including installing on Windows) check out [the docs](https://wasp-lang.dev/docs).
+
 2. Clone this repo
 ```
 git clone https://github.com/alyanoyigor/wasp-todo-app
