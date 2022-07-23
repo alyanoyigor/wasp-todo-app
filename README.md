@@ -21,5 +21,6 @@ cd wasp-todo-app/
 ```
 3. Start WASP
 ```
+wasp db migrate-dev
 wasp start
 ```
