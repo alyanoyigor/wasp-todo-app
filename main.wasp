@@ -2,7 +2,7 @@ app waspapp {
   title: "waspapp"
 }
 
-route RootRoute { path: "/", to: App }
-page App {
-  component: import Main from "@ext/src/App.js"
+route RootRoute { path: "/", to: MainPage }
+page MainPage {
+  component: import Main from "@ext/MainPage.js"
 }
